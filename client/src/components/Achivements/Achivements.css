@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.achivement-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+.achivements{
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 5px 1px slategrey;
+    position: relative; 
+    width: 700px;
+  }
+.achive-head{
+  color: aliceblue;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  }
+.achives-input{
+    display: flex;
+  }
+.achive-control{
+    background: transparent;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid #00c6ff;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 500;
+    outline: none;
+    width: 100%;
+    text-align: center;
+}
+.achive-control:hover{
+    border-bottom: 3px solid #0072ff;
+    border-radius: 10px;
+}
+.achive-control::placeholder{
+    color:aliceblue;
+    opacity: 0.7;
+}
+.achives-btn{
+    padding-left: 30px;
+  }
+.achive-btn{
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+    color: aliceblue;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.9s;
+    background-size: 200% auto;
+}
+.achive-btn:hover{
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+}
+.achives-align{
+    margin: 30px 0px 0px;
+  }
+  .achives-output{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 500;
+  }
+  .achive-show{
+    display:flex;
+  }
+  #achives-show{
+    list-style: none;
+    padding: 20px;
+  }
+  .achive-delete{
+    padding: 15px 10px;
+  }
+  .achive-del{
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+    color: aliceblue;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.9s;
+    background-size: 200% auto;
+  }
+  .achive-del:hover{
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+  }
+  #achive-font{
+    font-size: 35px;
+  }

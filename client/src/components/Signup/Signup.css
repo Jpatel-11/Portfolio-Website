@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box1 {
+    display: flex;
+    position: relative; 
+    width: 450px;
+    height: 710px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 5px 1px slategrey;
+}
+.box1 form{
+    position: absolute;
+    inset: 4px;
+    padding: 50px 40px;
+    border-radius: 10px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(6px);
+}
+.box1 form h2{
+    color: aliceblue;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.box1 form .inputBox{
+    position: relative;
+    width: 360px;
+    margin-top: 35px;
+}
+.box1 form .inputBox input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+.box1 form .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    pointer-events: none;
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.box1 form .inputBox input:valid ~ span,
+.box1 form .inputBox input:focus ~ span {
+    color: aliceblue;
+    font-size: 0.75em;
+    transform: translateY((-34px));
+}
+.box1 form .inputBox i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: aliceblue;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.box1 form .inputBox input:valid ~ i,
+.box1 form .inputBox input:focus ~ i {
+    height: 44px;
+}
+.box1 form .links{
+    display: flex;
+    justify-content: space-between;
+}
+.box1 form .links a{
+    margin: 10px 0;
+    font-size: 0.75em;
+    color: aliceblue;
+    text-decoration: none;
+}
+.box1 form .links a:hover,
+.box1 form .links a:nth-child(2){
+    color: aliceblue;
+}
+.sele-gen{
+    padding: 10px 0px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+    background: transparent;
+    padding-right: 227px;
+}
+.sele-opt{
+    color: black;
+}
+.have-acc{
+    color:#00c6ff;
+    margin: 10px 0px 10px;
+    font-size: medium;
+    font-style: italic;
+}
+#s-font{
+    color: aliceblue;
+    font-size: 25px;
+}
+#log-in{
+    font-size: medium;
+    font-weight: 500;
+    font-style: italic;
+}
